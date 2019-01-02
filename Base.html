@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<body>
+
+    {% block content %}
+    <h1>Czy wiesz, że...</h1>
+    {% endblock %}
+
+    {% block skrypty %}
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+    {% endblock %}
+
+</body>
